@@ -219,6 +219,13 @@ const people = [
     twitter: "peggyrayzis",
     bio:
       "An avid speaker, traveler, and world-traveling speaker, Peggy also loves skiing, sticker designing, and of course building open source software. You may not know that she’s also a former cheerleader, a skilled DJ, and has a sweet record collection!"
+  },
+  {
+    name: "Johanna Griffin",
+    picture: "johanna.jpg",
+    title: "Technical Support Engineer",
+    twitter: "jkgriffin234",
+    bio: "A Bay Area native, she is passionate about coding, writing and UX, along with finding new rock climbing, hiking trails, and local food. Previously a \"dog person\", she has recently re-evaluated her position and has adopted two cats."
   }
 ];
 
