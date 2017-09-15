@@ -1,110 +1,112 @@
 <html>
-  {{> head}}
+{{> head}}
 
-  <body>
-    {{> scripts}}
-    {{> navbar}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Meteor Development Group">
+<meta name="twitter:description" content="The open source leader for JavaScript and GraphQL.">
+<meta name="twitter:image" content="https://www.meteor.io/img/twitter-meta/meteorio.png">
 
-    <div class="hero">
-      <div class="pictures-section" id="company">
-        <div class="image" style="background-image: url('/img/company/home/hero.jpg')"></div>
-      </div>
-      <h1>Meteor Development Group</h1>
-      <h3>The open source company for JavaScript and GraphQL</h3>
-      <a class="jobs button" href="/jobs">See open positions</a>
+<body>
+  {{> scripts}} {{> navbar}}
+
+  <div class="hero">
+    <div class="pictures-section" id="company">
+      <div class="image" style="background-image: url('/img/company/home/hero.jpg')"></div>
     </div>
+    <h1>Meteor Development Group</h1>
+    <h3>The open source company for JavaScript and GraphQL</h3>
+    <a class="jobs button" href="/jobs">See open positions</a>
+  </div>
 
-    <h4 class="subtitle">Who we are</h4>
+  <h4 class="subtitle">Who we are</h4>
 
-    <p>
-      We're on a mission to improve how people develop software. Our company is focused on making
-      application development easier, better, and accessible to more people. We are a talented,
-      tight-knit team spread across the globe, and we're proud of our flexible and remote-first work culture.
-    </p>
+  <p>
+    We're on a mission to improve how people develop software. Our company is focused on making application development easier,
+    better, and accessible to more people. We are a talented, tight-knit team spread across the globe, and we're proud of
+    our flexible and remote-first work culture.
+  </p>
 
-    <!-- <p class="quote">
+  <!-- <p class="quote">
       We're on a mission to change the way software is developed.
     </p>
     <p class="speaker">- Geoff Schmidt, CEO/Co-Founder</p> -->
 
-    <div class="products">
-      <div class="apollo">
-        <div>
-          <img src="img/logo/apollo-white.svg" />
-          We build Apollo, a family of tools that enable developers to get the most out of GraphQL.
-          Apollo Client is the most popular GraphQL client for React and mobile apps. Optics, our
-          performance monitoring service, is the only APM tool specifically for GraphQL, and is crucial
-          for developers running GraphQL in production. We work hard to grow GraphQL as a technology
-          and partner with open source thought leaders and companies building on GraphQL.
-          <div class="link">
-            <a target="_blank" href="http://www.apollodata.com/">Home<span class="icon icon-arrow-right"></span></a>
-            <a target="_blank" href="https://dev-blog.apollodata.com/">Blog<span class="icon icon-arrow-right"></span></a>
-            <a target="_blank" href="https://twitter.com/apollographql">Twitter<span class="icon icon-arrow-right"></span></a>
-            <a target="_blank" href="https://github.com/apollographql">GitHub<span class="icon icon-arrow-right"></span></a>
-            <a target="_blank" href="https://www.youtube.com/channel/UC0pEW_GOrMJ23l8QcrGdKSw">YouTube<span class="icon icon-arrow-right"></span></a>
-          </div>
-        </div>
-      </div>
-      <div class="meteor">
-        <div>
-          <img src="img/logo/meteor-white.svg" />
-          We build Meteor, the most popular full-stack framework for building real-time apps with modern
-          JavaScript, and Galaxy, our hosting and performance monitoring solution for Meteor apps. Thousands
-          of companies, and hundreds of thousands of developers, have built their products on top of the Meteor
-          platform. We're proud of the global community we've built with our users and customers.
-          <div class="link">
-            <a target="_blank" href="https://www.meteor.com/">Home<span class="icon icon-arrow-right"></span></a>
-            <a target="_blank" href="https://blog.meteor.com/">Blog<span class="icon icon-arrow-right"></span></a>
-            <a target="_blank" href="https://twitter.com/meteorjs">Twitter<span class="icon icon-arrow-right"></span></a>
-            <a target="_blank" href="https://github.com/meteor">GitHub<span class="icon icon-arrow-right"></span></a>
-            <a target="_blank" href="https://www.youtube.com/user/MeteorVideos">YouTube<span class="icon icon-arrow-right"></span></a>
-          </div>
+  <div class="products">
+    <div class="apollo">
+      <div>
+        <img src="img/logo/apollo-white.svg" /> We build Apollo, a family of tools that enable developers to get the most
+        out of GraphQL. Apollo Client is the most popular GraphQL client for React and mobile apps. Optics, our performance
+        monitoring service, is the only APM tool specifically for GraphQL, and is crucial for developers running GraphQL
+        in production. We work hard to grow GraphQL as a technology and partner with open source thought leaders and companies
+        building on GraphQL.
+        <div class="link">
+          <a target="_blank" href="http://www.apollodata.com/">Home<span class="icon icon-arrow-right"></span></a>
+          <a target="_blank" href="https://dev-blog.apollodata.com/">Blog<span class="icon icon-arrow-right"></span></a>
+          <a target="_blank" href="https://twitter.com/apollographql">Twitter<span class="icon icon-arrow-right"></span></a>
+          <a target="_blank" href="https://github.com/apollographql">GitHub<span class="icon icon-arrow-right"></span></a>
+          <a target="_blank" href="https://www.youtube.com/channel/UC0pEW_GOrMJ23l8QcrGdKSw">YouTube<span class="icon icon-arrow-right"></span></a>
         </div>
       </div>
     </div>
-
-    <p>
-      We build open source tools and commercial services used by thousands of developers in production. We're very
-      proud not only of the products we make, but of the community and partnerships we've cultivated
-      with other developers and companies. Here are some of the companies we've worked with:
-    </p>
-
-    <div class="partners">
-      {{#each partners1}}
-        <div class="partner" style="background-image: url('/img/partners/{{this}}')"></div>
-      {{/each}}
+    <div class="meteor">
+      <div>
+        <img src="img/logo/meteor-white.svg" /> We build Meteor, the most popular full-stack framework for building real-time
+        apps with modern JavaScript, and Galaxy, our hosting and performance monitoring solution for Meteor apps. Thousands
+        of companies, and hundreds of thousands of developers, have built their products on top of the Meteor platform. We're
+        proud of the global community we've built with our users and customers.
+        <div class="link">
+          <a target="_blank" href="https://www.meteor.com/">Home<span class="icon icon-arrow-right"></span></a>
+          <a target="_blank" href="https://blog.meteor.com/">Blog<span class="icon icon-arrow-right"></span></a>
+          <a target="_blank" href="https://twitter.com/meteorjs">Twitter<span class="icon icon-arrow-right"></span></a>
+          <a target="_blank" href="https://github.com/meteor">GitHub<span class="icon icon-arrow-right"></span></a>
+          <a target="_blank" href="https://www.youtube.com/user/MeteorVideos">YouTube<span class="icon icon-arrow-right"></span></a>
+        </div>
+      </div>
     </div>
-    <div class="partners">
-      {{#each partners2}}
-        <div class="partner" style="background-image: url('/img/partners/{{this}}')"></div>
-      {{/each}}
-    </div>
+  </div>
 
-    <p>
-      Whether it's building a new open source tool, improving a production-critical system, or organizing
-      a cutting-edge community event, we spend our time wisely to have an oversized impact with a small
-      team. See where you might fit in:
-    </p>
+  <p>
+    We build open source tools and commercial services used by thousands of developers in production. We're very proud not only
+    of the products we make, but of the community and partnerships we've cultivated with other developers and companies.
+    Here are some of the companies we've worked with:
+  </p>
 
-    <div class="people featurettes">
-      {{#each jobs}}
-        <div class="card">
-          <div class="flipper">
-            <div class="front" style="background-image: url(/img/company/home/{{image}})">
-              <div class="overlay">
-                <div class="name">{{title}}</div>
-                <div class="position">{{subtitle}}</div>
-              </div>
-            </div>
-            <div class="back">
-              <div class="bio">{{description}}</div>
-              <a class="learn-more" href="/jobs/#{{id}}">Learn more <span class="icon icon-arrow-right"></span></a>
-            </div>
+  <div class="partners">
+    {{#each partners1}}
+    <div class="partner" style="background-image: url('/img/partners/{{this}}')"></div>
+    {{/each}}
+  </div>
+  <div class="partners">
+    {{#each partners2}}
+    <div class="partner" style="background-image: url('/img/partners/{{this}}')"></div>
+    {{/each}}
+  </div>
+
+  <p>
+    Whether it's building a new open source tool, improving a production-critical system, or organizing a cutting-edge community
+    event, we spend our time wisely to have an oversized impact with a small team. See where you might fit in:
+  </p>
+
+  <div class="people featurettes">
+    {{#each jobs}}
+    <div class="card">
+      <div class="flipper">
+        <div class="front" style="background-image: url(/img/company/home/{{image}})">
+          <div class="overlay">
+            <div class="name">{{title}}</div>
+            <div class="position">{{subtitle}}</div>
           </div>
         </div>
-      {{/each}}
+        <div class="back">
+          <div class="bio">{{description}}</div>
+          <a class="learn-more" href="/jobs/#{{id}}">Learn more <span class="icon icon-arrow-right"></span></a>
+        </div>
+      </div>
     </div>
+    {{/each}}
+  </div>
 
-    {{> footer}}
-  </body>
+  {{> footer}}
+</body>
+
 </html>
