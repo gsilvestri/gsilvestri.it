@@ -58,7 +58,7 @@ const people = [
     title: "Engineering Manager",
     twitter: "stubailo",
     bio:
-      "In addition to being an engineering manager, tech lead, and Meteor Forum champion, Sashko is also the office’s resident DJ, tennis ball collector, board game master, and only snowboarder (the rest of us know skiing is better)."
+      "In addition to being an engineering manager, tech lead, and Meteor Forum champion, Sashko is also the office’s resident DJ, tennis ball collector, board game master, and in the minority of snowboarders (the rest of us know skiing is better)."
   },
   {
     name: "Zhenya Savchenko",
@@ -225,7 +225,16 @@ const people = [
     picture: "johanna.jpg",
     title: "Technical Support Engineer",
     twitter: "jkgriffin234",
-    bio: "A Bay Area native, she is passionate about coding, writing and UX, along with finding new rock climbing, hiking trails, and local food. Previously a \"dog person\", she has recently re-evaluated her position and has adopted two cats."
+    bio:
+      'A Bay Area native, Johanna is passionate about coding, writing and UX, along with finding new rock climbing, hiking trails, and local food. Previously a "dog person", she has recently re-evaluated her position and has adopted two cats.'
+  },
+  {
+    name: "Adam Zionts",
+    picture: "adam.jpg",
+    title: "Core Developer",
+    github: "zionts",
+    bio:
+      "Adam moved from one sunshine state to another to join us as a backend services dev. He brings with him expertise in buffalo chicken cooking, spanish speaking, and bungee jumping. He also joins the minority of snowboarders in the office!"
   }
 ];
 
