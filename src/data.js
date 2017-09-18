@@ -199,7 +199,7 @@ const people = [
   {
     name: "Klaire Tan",
     picture: "klaire.jpg",
-    title: "Intern",
+    title: "Core Developer",
     github: "klairetan",
     bio:
       "Klaire joins us from Yale’s CS program. She’s not only built several highly requested features for our commercial products Optics + Galaxy, but she’s the reason we now have kettle corn in the office and she’s been teaching us how to properly throw frisbees."
