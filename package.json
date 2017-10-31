@@ -4,8 +4,8 @@
     "start": "maw dev"
   },
   "devDependencies": {
-    "maw": "^0.4.10",
     "gulp": "^3.9.1",
+    "maw": "^0.6.0",
     "webpack": "^2.3.2"
   },
   "dependencies": {
