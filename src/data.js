@@ -235,6 +235,14 @@ const people = [
     github: "zionts",
     bio:
       "Adam moved from one sunshine state to another to join us as a backend services dev. He brings with him expertise in buffalo chicken cooking, spanish speaking, and bungee jumping. He also joins the minority of snowboarders in the office!"
+  },
+  {
+    name: "Nicole Seo",
+    picture: "nicole.jpg",
+    title: "Core Developer",
+    github: "nicseo",
+    bio:
+      "A Parisian trained pastry chef and French Bulldog lover, you might be surprised to know that Nicole does not have a thick French accent. She does however have a lot of travel stories to share, a great eye for design, and a natural talent for product eng."
   }
 ];
 
