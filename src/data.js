@@ -101,14 +101,6 @@ const people = [
       "“Chief Monkey Herder 🐵”. Danielle built most of this website, and didn't want to write a bio for herself."
   },
   {
-    name: "Rohit Bakhshi",
-    picture: "rohit.jpg",
-    title: "Senior Product Manager",
-    twitter: "rohit2b",
-    bio:
-      "Rohit is the office's champion corn hole player. When not championing our commercial products, you can find him drinking expresso and listening to live jazz. He's also the only person we know who likes to start his day at 5am."
-  },
-  {
     name: "Martijn Walraven",
     picture: "martijn.jpg",
     title: "Core Developer",
