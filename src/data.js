@@ -95,7 +95,7 @@ const people = [
   {
     name: "Danielle Man",
     picture: "danielle.jpg",
-    title: "Core Developer",
+    title: "Engineering Manager",
     twitter: "danimman",
     bio:
       "“Chief Monkey Herder 🐵”. Danielle built most of this website, and didn't want to write a bio for herself."
