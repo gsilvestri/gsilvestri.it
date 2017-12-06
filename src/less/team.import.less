@@ -1,4 +1,4 @@
-@import './colors.import.less';
+@import "./colors.import.less";
 
 .partners {
   display: flex;
@@ -16,7 +16,7 @@
 }
 
 .team.team-photo {
-  background-image: url('img/company/team/team.gif');
+  background-image: url("img/company/team/team.gif");
   height: 375px;
 }
 
@@ -40,8 +40,8 @@
   }
 
   .card {
-  	width: 170px;
-  	height: 170px;
+    width: 170px;
+    height: 170px;
     overflow: hidden;
     display: inline-block;
     vertical-align: top;
@@ -95,44 +95,44 @@
     perspective: 1000;
 
     .flipper {
-    	-webkit-transition: 0.6s;
-    	-webkit-transform-style: preserve-3d;
+      -webkit-transition: 0.6s;
+      -webkit-transform-style: preserve-3d;
 
-    	-moz-transition: 0.6s;
-    	-moz-transform-style: preserve-3d;
+      -moz-transition: 0.6s;
+      -moz-transform-style: preserve-3d;
 
       -o-transition: 0.6s;
-    	-o-transform-style: preserve-3d;
+      -o-transform-style: preserve-3d;
 
-    	transition: 0.6s;
-    	transform-style: preserve-3d;
+      transition: 0.6s;
+      transform-style: preserve-3d;
 
-    	position: relative;
+      position: relative;
       height: 100%;
       width: 100%;
     }
 
     &:hover {
       .flipper {
-    		-webkit-transform: rotateY(180deg);
-    		-moz-transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
         -o-transform: rotateY(180deg);
-    		transform: rotateY(180deg);
+        transform: rotateY(180deg);
 
         img.picture {
           // filter: blur(20px);
           transition: all 0.3s ease-out;
         }
-    	}
+      }
     }
   }
 
   .front,
   .back {
-  	-webkit-backface-visibility: hidden;
-  	-moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
     -o-backface-visibility: hidden;
-  	backface-visibility: hidden;
+    backface-visibility: hidden;
     overflow: hidden;
     width: 100%;
     height: 100%;
@@ -162,7 +162,11 @@
       width: 100%;
       height: 50%;
       margin-top: 50%;
-      background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);
+      background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.5) 100%
+      );
       display: flex;
       justify-content: flex-end;
       flex-direction: column;
@@ -193,6 +197,8 @@
   .back {
     z-index: 10;
     background-color: rgba(51, 51, 51, 1);
+    display: flex;
+    flex-direction: column;
 
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
@@ -201,23 +207,25 @@
 
     .bio {
       font-size: 12px;
-      padding: 0 10px 10px;
+      padding: 10px;
       line-height: 14px;
-      margin-top: 33px;
+      flex: 1;
+      padding: 10px;
     }
 
     .twitter,
     .github {
+      flex: 0;
       font-size: 12px;
-      padding: 10px 10px 5px;
+      padding: 10px 10px 0;
       font-weight: 600;
       cursor: pointer;
       color: #fff !important;
       text-decoration: none;
-      position: absolute;
       display: flex;
       align-items: center;
-      flex-direction: center;
+      flex-direction: row;
+      display: block;
 
       &:visited {
         color: #fff !important;
@@ -232,27 +240,36 @@
 
       span.icon {
         font-size: 16px;
+        position: relative;
+        top: 3px;
         margin-right: 5px;
       }
+    }
+
+    .social + .bio {
+      margin-top: -5px;
     }
   }
 }
 
-@media(max-width: 1000px) { // 900 + buffer
+@media (max-width: 1000px) {
+  // 900 + buffer
   .people,
   .partners {
     max-width: 720px;
   }
 }
 
-@media(max-width: 800px) { // 720 + buffer
+@media (max-width: 800px) {
+  // 720 + buffer
   .people,
   .partners {
     max-width: 540px;
   }
 }
 
-@media(max-width: 600px) { // 540 + buffer
+@media (max-width: 600px) {
+  // 540 + buffer
   .people,
   .partners {
     max-width: 360px;
@@ -268,7 +285,8 @@
   }
 }
 
-@media(max-width: 400px) { // 360 + buffer
+@media (max-width: 400px) {
+  // 360 + buffer
   .people,
   .partners {
     text-align: center;

@@ -47,7 +47,7 @@ const people = [
   {
     name: "Chris Shaw",
     picture: "shaw.jpg",
-    title: "Director of Talent",
+    title: "Director of Talent/People Ops",
     twitter: "cshaw4",
     bio:
       "Chris has recruited talent for some of the top tech companies in the world. He makes sure not only that our company has the best people, but also that our fridge has the best beer. His classic look: a space-themed graphic tee and sport coat."
@@ -111,7 +111,7 @@ const people = [
   {
     name: "Alisha Ehrlich",
     picture: "alisha.jpg",
-    title: "Recruiting",
+    title: "Talent/People Ops Specialist",
     twitter: "alishaehrlich",
     bio:
       "When not improving MDG’s processes or supporting our talent acquisition and D&I efforts, Alisha loves to read, play board games, and marathon episodes on Netflix. She’s also an actress outside of MDG and saw the final dress of Hamilton!"
@@ -235,6 +235,13 @@ const people = [
     github: "nicseo",
     bio:
       "A Parisian trained pastry chef and French Bulldog lover, you might be surprised to know that Nicole does not have a thick French accent. She does however have a lot of travel stories to share, a great eye for design, and a natural talent for product eng."
+  },
+  {
+    name: "Marie Bowles",
+    picture: "marie.jpg",
+    title: "People Ops Generalist",
+    bio:
+      "An East Coast native and part of the “not West Coast” contingent, Marie represents the northern of the two Carolinas at MDG. A coffee-aholic, fitness nut, and lover of music and wine, she’s a Jill of all trades on the People Ops team!"
   }
 ];
 

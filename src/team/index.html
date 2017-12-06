@@ -43,12 +43,20 @@
         <div class="front" style="background-image: url('/img/company/team/{{ picture }}')">
           <div class="overlay">
             <div class="name">{{name}}</div>
-            <div class="position">{{#if founder}}<span class="founder">Founder</span>{{/if}}{{title}}</div>
+            <div class="position">{{#if founder}}
+              <span class="founder">Founder</span>{{/if}}{{title}}</div>
           </div>
         </div>
         <div class="back">
-          {{#if twitter}}<a target="_blank" href="https://twitter.com/{{ twitter }}" class="twitter"><span class="icon icon-twitter"></span><span>@{{twitter}}</span></a>{{/if}}
-          {{#if github}}<a target="_blank" href="https://github.com/{{ github }}" class="github"><span class="icon icon-github"></span><span>{{github}}</span></a>{{/if}}
+          {{#if twitter}}
+          <a target="_blank" href="https://twitter.com/{{ twitter }}" class="social twitter">
+            <span class="icon icon-twitter"></span>
+            <span>@{{twitter}}</span>
+          </a>{{/if}} {{#if github}}
+          <a target="_blank" href="https://github.com/{{ github }}" class="social github">
+            <span class="icon icon-github"></span>
+            <span>{{github}}</span>
+          </a>{{/if}}
           <div class="bio">{{ bio }}</div>
         </div>
       </div>
