@@ -242,6 +242,13 @@ const people = [
     title: "People Ops Generalist",
     bio:
       "An East Coast native and part of the “not West Coast” contingent, Marie represents the northern of the two Carolinas at MDG. A coffee-aholic, fitness nut, and lover of music and wine, she’s a Jill of all trades on the People Ops team!"
+  },
+  {
+    name: "Andrew Moehrke",
+    picture: "andrew.jpg",
+    title: "Sales",
+    bio:
+      "On winter weekends there's a 80% chance you'll find Andrew shredding the ski slopes of Lake Tahoe. He has a background in electrical engineering and loves soldering together tube amps for his home audio system."
   }
 ];
 
