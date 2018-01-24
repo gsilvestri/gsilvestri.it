@@ -61,14 +61,6 @@ const people = [
       "In addition to being an engineering manager, tech lead, and Meteor Forum champion, Sashko is also the office’s resident DJ, tennis ball collector, board game master, and in the minority of snowboarders (the rest of us know skiing is better)."
   },
   {
-    name: "Zhenya Savchenko",
-    picture: "zhenya.jpg",
-    title: "Engineering Manager",
-    twitter: "zhenyasaisquoi",
-    bio:
-      "Zhenya is our reigning office tennis champion, go-to guy for changing lightbulbs, and in-house polite Canadian. He wears many hats, including designer, engineer, product manager, people manager, and general custodian for the Commercial Services team."
-  },
-  {
     name: "Thea Lamkin",
     picture: "thea.jpg",
     title: "Developer Programs",
@@ -103,10 +95,10 @@ const people = [
   {
     name: "Martijn Walraven",
     picture: "martijn.jpg",
-    title: "Core Developer",
+    title: "Technical Product Manager",
     twitter: "martijnwalraven",
     bio:
-      "Martijn is our Swift expert. When not traveling the world to speak at conferences, he works from comfy Amsterdam. At age 18, he passed his Windows certification test without ever having touched a Windows computer. True story."
+      "Martijn joined MDG as our resident mobile expert, but has since become our go-to person for knowing what makes GraphQL developers tick. When not traveling the world and talking to GraphQL devs, he also manages our (1-person) Amsterdam office."
   },
   {
     name: "Alisha Ehrlich",
@@ -147,14 +139,6 @@ const people = [
     twitter: "julianeon",
     bio:
       "Julian is more in-touch with our customers than anyone else, and is the reason they have a great customer experience. He's also the reason we have gourmet chocolate bars in the office, and is the biggest fan of our Emacs mug."
-  },
-  {
-    name: "Uri Goldshtein",
-    picture: "uri.jpg",
-    title: "Core Developer",
-    twitter: "urigoldshtein",
-    bio:
-      "You can find Uri and his distinctive hairstyle at conferences all around the world (nickname: “Angular Jesus”). It can be hard to figure out what time zone he's in, but if he's not making OSS, he's probably couch surfing or hiking in the desert."
   },
   {
     name: "Pierre Carrier",
@@ -231,10 +215,10 @@ const people = [
   {
     name: "Nicole Seo",
     picture: "nicole.jpg",
-    title: "Core Developer",
+    title: "Product Experience Manager",
     github: "nicseo",
     bio:
-      "A Parisian trained pastry chef and French Bulldog lover, you might be surprised to know that Nicole does not have a thick French accent. She does however have a lot of travel stories to share, a great eye for design, and a natural talent for product eng."
+      "A Parisian trained pastry chef and French Bulldog lover, you might be surprised to know that Nicole does not have a thick French accent. She does however have a lot of travel stories to share, a great eye for design, and a natural talent for product dev."
   },
   {
     name: "Marie Bowles",
