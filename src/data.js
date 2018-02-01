@@ -157,14 +157,6 @@ const people = [
       "From the Australian outback, Joseph has taught us a lot about aussie animals, radio waves, and beer. He's a frequent Pacific traverser, a Guardian of Galaxy, and has brought his expertise on distributed state machines to all of our products."
   },
   {
-    name: "Reza Ordoubadi",
-    picture: "reza.jpg",
-    title: "Marketing Ops & Analytics",
-    twitter: "rezpezz",
-    bio:
-      "Reza is our resident marketing data analytics expert. When he’s not attending Warriors basketball games, you may find him swimming in the SF Bay around Alcatraz (assuming the sharks don't find him first)."
-  },
-  {
     name: "Pete Wagner",
     picture: "pete.png",
     title: "Core Developer",
