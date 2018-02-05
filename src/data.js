@@ -61,14 +61,6 @@ const people = [
       "In addition to being an engineering manager, tech lead, and Meteor Forum champion, Sashko is also the office’s resident DJ, tennis ball collector, board game master, and in the minority of snowboarders (the rest of us know skiing is better)."
   },
   {
-    name: "Thea Lamkin",
-    picture: "thea.jpg",
-    title: "Developer Programs",
-    twitter: "thelamkin",
-    bio:
-      "When not keeping our communities happy, organizing conferences, or making sure our blog is amazing, you can find Thea skiing, camping, running, biking, BARTing, etc... She’s also the office’s primary consumer of berries."
-  },
-  {
     name: "Ben Newman",
     picture: "ben.jpg",
     title: "Tech Lead : Meteor OSS",
