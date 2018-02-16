@@ -47,7 +47,7 @@ const people = [
   {
     name: "Chris Shaw",
     picture: "shaw.jpg",
-    title: "Director of Talent/People Ops",
+    title: "Head of People Operations",
     twitter: "cshaw4",
     bio:
       "Chris has recruited talent for some of the top tech companies in the world. He makes sure not only that our company has the best people, but also that our fridge has the best beer. His classic look: a space-themed graphic tee and sport coat."
