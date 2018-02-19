@@ -63,7 +63,7 @@ const people = [
   {
     name: "Ben Newman",
     picture: "ben.jpg",
-    title: "Tech Lead : Meteor OSS",
+    title: "Tech Lead : OSS",
     twitter: "benjamn",
     bio:
       "When not maintaining his dog's Instagram, Ben is passionate about pushing the limits of JavaScript with automatic code transformation tools like Recast and Regenerator. He's a Brooklyner, Burning Man regular, and JavaScript guru."
@@ -71,7 +71,7 @@ const people = [
   {
     name: "David Glasser",
     picture: "glasser.jpg",
-    title: "Tech Lead : Galaxy Backend",
+    title: "Tech Lead : Backend",
     twitter: "glasser",
     bio:
       "A Guardian of Galaxy and administrator of the world famous “Glasser Code Review”, David has read the source code from more Github repositories than anyone else we know. He's probably also been to more concerts than anyone else."
@@ -103,7 +103,7 @@ const people = [
   {
     name: "Tim Hingston",
     picture: "tim.jpg",
-    title: "Tech Lead : Galaxy Frontend",
+    title: "Tech Lead : Frontend",
     twitter: "timbotnik",
     bio:
       "Not only is Tim the only person at MDG to have worked across the full stack of all our commercial products, he's also an accomplished guitarist who's toured with several indie bands and appeared at SXSW and on MTV."
@@ -135,7 +135,7 @@ const people = [
   {
     name: "Pierre Carrier",
     picture: "pierre.jpg",
-    title: "Tech Lead : Optics",
+    title: "Tech Lead : Backend",
     twitter: "pcarrier",
     bio:
       "While he specialized in distributed systems, Pierre is an expert on a number of other things including typography, strategy games, and keyboards (he's designed his own, the Planck). He's also the fastest talker this side of the Rhine. "
@@ -167,7 +167,7 @@ const people = [
   {
     name: "James Baxley",
     picture: "james.jpg",
-    title: "Core Developer",
+    title: "Tech Lead : OSS",
     twitter: "jbaxleyiii",
     bio:
       "Normally found in his garden tending his bee hives, James is a believer in cultivating happy and healthly communities. He is a lover of design systems, all things javascript and fixing old land rovers."
