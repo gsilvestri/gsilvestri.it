@@ -217,6 +217,14 @@ const people = [
     title: "Sales",
     bio:
       "On winter weekends there's a 80% chance you'll find Andrew shredding the ski slopes of Lake Tahoe. He has a background in electrical engineering and loves soldering together tube amps for his home audio system."
+  },
+  {
+    name: "Evans Hauser",
+    picture: "evans.png",
+    title: "Core Developer",
+    twitter: "evanshauser",
+    bio:
+      "Evans joins our team from CMU as an open sorcerer, stand up desk user, and go-to ad libber when need to stall for time at meetups because we're having technical difficulties. He's a Bay Area native, scuba diver, hip hop dancer, and Thai food lover!"
   }
 ];
 
