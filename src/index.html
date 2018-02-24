@@ -1,13 +1,13 @@
 <html>
 
 <head>
-  <title>Meteor Development Group</title>
+  <title>Giovanni Silvestri's Home</title>
 
   {{> head}}
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Meteor Development Group">
-  <meta name="twitter:description" content="The open source leader for JavaScript and GraphQL.">
+  <meta name="twitter:title" content="Giovanni Silvestri's Home">
+  <meta name="twitter:description" content="Software Enginee, human begin, father of none">
   <meta name="twitter:image" content="https://www.meteor.io/img/twitter-meta/meteorio.png">
 </head>
 
@@ -15,12 +15,63 @@
   {{> scripts}} {{> navbar}}
 
   <div class="hero">
-    <div class="pictures-section" id="company">
-      <div class="image" style="background-image: url('/img/company/home/hero.jpg')"></div>
+    <div id="slideshow">
+      <div class="pictures-section" id="hero1">
+        <div class="image" style="background-image: url('/img/company/home/hero/hero1.jpg')"></div>
+      </div>
+      <div class="pictures-section heroSlides" id="hero2">
+        <div class="image" style="background-image: url('/img/company/home/hero/hero2.jpg')"></div>
+      </div>
+      <div class="pictures-section heroSlides" id="hero3">
+        <div class="image" style="background-image: url('/img/company/home/hero/hero3.jpg')"></div>
+      </div>
+      <div class="pictures-section heroSlides" id="hero4">
+        <div class="image" style="background-image: url('/img/company/home/hero/hero4.jpg')"></div>
+      </div>
+      <div class="pictures-section heroSlides" id="hero5">
+        <div class="image" style="background-image: url('/img/company/home/hero/hero5.jpg')"></div>
+      </div>
+      <div class="pictures-section heroSlides" id="hero6">
+        <div class="image" style="background-image: url('/img/company/home/hero/hero6.jpg')"></div>
+      </div>
+      <div class="pictures-section heroSlides" id="hero7">
+        <div class="image" style="background-image: url('/img/company/home/hero/hero7.jpg')"></div>
+      </div>
+      <div class="pictures-section heroSlides" id="hero8">
+        <div class="image" style="background-image: url('/img/company/home/hero/hero8.jpg')"></div>
+      </div>
+      <div class="pictures-section heroSlides" id="hero9">
+        <div class="image" style="background-image: url('/img/company/home/hero/hero9.jpg')"></div>
+      </div>
+      <div class="pictures-section heroSlides" id="hero10">
+        <div class="image" style="background-image: url('/img/company/home/hero/hero10.jpg')"></div>
+      </div>
+      <div class="pictures-section heroSlides" id="hero11">
+        <div class="image" style="background-image: url('/img/company/home/hero/hero11.jpg')"></div>
+      </div>
+      <div class="pictures-section heroSlides" id="hero12">
+        <div class="image" style="background-image: url('/img/company/home/hero/hero12.jpg')"></div>
+      </div>
     </div>
-    <h1>Meteor Development Group</h1>
-    <h3>The open source company for JavaScript and GraphQL</h3>
-    <a class="jobs button" href="/jobs">See open positions</a>
+    <div id="contact">
+      <a class="jobs button" href="/jobs">Hire me</a>
+    </div>
+    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+      <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+      <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+      <span class="w3-badge w3-border w3-transparent w3-hover-white w3-white" id="heroDot1" onclick="currentDiv(1)"></span>
+      <span class="w3-badge w3-border w3-transparent w3-hover-white" id="heroDot2" onclick="currentDiv(2)"></span>
+      <span class="w3-badge w3-border w3-transparent w3-hover-white" id="heroDot3" onclick="currentDiv(3)"></span>
+      <span class="w3-badge w3-border w3-transparent w3-hover-white" id="heroDot4" onclick="currentDiv(4)"></span>
+      <span class="w3-badge w3-border w3-transparent w3-hover-white" id="heroDot5" onclick="currentDiv(5)"></span>
+      <span class="w3-badge w3-border w3-transparent w3-hover-white" id="heroDot6" onclick="currentDiv(6)"></span>
+      <span class="w3-badge w3-border w3-transparent w3-hover-white" id="heroDot7" onclick="currentDiv(7)"></span>
+      <span class="w3-badge w3-border w3-transparent w3-hover-white" id="heroDot8" onclick="currentDiv(8)"></span>
+      <span class="w3-badge w3-border w3-transparent w3-hover-white" id="heroDot9" onclick="currentDiv(9)"></span>
+      <span class="w3-badge w3-border w3-transparent w3-hover-white" id="heroDot10" onclick="currentDiv(10)"></span>
+      <span class="w3-badge w3-border w3-transparent w3-hover-white" id="heroDot11" onclick="currentDiv(11)"></span>
+      <span class="w3-badge w3-border w3-transparent w3-hover-white" id="heroDot12" onclick="currentDiv(12)"></span>
+    </div>
   </div>
 
   <h4 class="subtitle">Who we are</h4>
@@ -39,32 +90,51 @@
   <div class="products">
     <div class="apollo">
       <div>
-        <img src="img/logo/apollo-white.svg" /> We build Apollo, a family of tools that enable developers to get the most
-        out of GraphQL. Apollo Client is the most popular GraphQL client for React and mobile apps. Optics, our performance
-        monitoring service, is the only APM tool specifically for GraphQL, and is crucial for developers running GraphQL
-        in production. We work hard to grow GraphQL as a technology and partner with open source thought leaders and companies
-        building on GraphQL.
+        <img src="img/logo/apollo-white.svg" /> We build Apollo, a family of tools that enable developers to get the most out of GraphQL. Apollo Client is the most
+        popular GraphQL client for React and mobile apps. Optics, our performance monitoring service, is the only APM tool
+        specifically for GraphQL, and is crucial for developers running GraphQL in production. We work hard to grow GraphQL
+        as a technology and partner with open source thought leaders and companies building on GraphQL.
         <div class="link">
-          <a target="_blank" href="https://www.apollographql.com/">Home<span class="icon icon-arrow-right"></span></a>
-          <a target="_blank" href="https://dev-blog.apollodata.com/">Blog<span class="icon icon-arrow-right"></span></a>
-          <a target="_blank" href="https://twitter.com/apollographql">Twitter<span class="icon icon-arrow-right"></span></a>
-          <a target="_blank" href="https://github.com/apollographql">GitHub<span class="icon icon-arrow-right"></span></a>
-          <a target="_blank" href="https://www.youtube.com/channel/UC0pEW_GOrMJ23l8QcrGdKSw">YouTube<span class="icon icon-arrow-right"></span></a>
+          <a target="_blank" href="https://www.apollographql.com/">Home
+            <span class="icon icon-arrow-right"></span>
+          </a>
+          <a target="_blank" href="https://dev-blog.apollodata.com/">Blog
+            <span class="icon icon-arrow-right"></span>
+          </a>
+          <a target="_blank" href="https://twitter.com/apollographql">Twitter
+            <span class="icon icon-arrow-right"></span>
+          </a>
+          <a target="_blank" href="https://github.com/apollographql">GitHub
+            <span class="icon icon-arrow-right"></span>
+          </a>
+          <a target="_blank" href="https://www.youtube.com/channel/UC0pEW_GOrMJ23l8QcrGdKSw">YouTube
+            <span class="icon icon-arrow-right"></span>
+          </a>
         </div>
       </div>
     </div>
     <div class="meteor">
       <div>
-        <img src="img/logo/meteor-white.svg" /> We build Meteor, the most popular full-stack framework for building real-time
-        apps with modern JavaScript, and Galaxy, our hosting and performance monitoring solution for Meteor apps. Thousands
-        of companies, and hundreds of thousands of developers, have built their products on top of the Meteor platform. We're
-        proud of the global community we've built with our users and customers.
+        <img src="img/logo/meteor-white.svg" /> We build Meteor, the most popular full-stack framework for building real-time apps with modern JavaScript, and Galaxy,
+        our hosting and performance monitoring solution for Meteor apps. Thousands of companies, and hundreds of thousands
+        of developers, have built their products on top of the Meteor platform. We're proud of the global community we've
+        built with our users and customers.
         <div class="link">
-          <a target="_blank" href="https://www.meteor.com/">Home<span class="icon icon-arrow-right"></span></a>
-          <a target="_blank" href="https://blog.meteor.com/">Blog<span class="icon icon-arrow-right"></span></a>
-          <a target="_blank" href="https://twitter.com/meteorjs">Twitter<span class="icon icon-arrow-right"></span></a>
-          <a target="_blank" href="https://github.com/meteor">GitHub<span class="icon icon-arrow-right"></span></a>
-          <a target="_blank" href="https://www.youtube.com/user/MeteorVideos">YouTube<span class="icon icon-arrow-right"></span></a>
+          <a target="_blank" href="https://www.meteor.com/">Home
+            <span class="icon icon-arrow-right"></span>
+          </a>
+          <a target="_blank" href="https://blog.meteor.com/">Blog
+            <span class="icon icon-arrow-right"></span>
+          </a>
+          <a target="_blank" href="https://twitter.com/meteorjs">Twitter
+            <span class="icon icon-arrow-right"></span>
+          </a>
+          <a target="_blank" href="https://github.com/meteor">GitHub
+            <span class="icon icon-arrow-right"></span>
+          </a>
+          <a target="_blank" href="https://www.youtube.com/user/MeteorVideos">YouTube
+            <span class="icon icon-arrow-right"></span>
+          </a>
         </div>
       </div>
     </div>
@@ -104,7 +174,9 @@
         </div>
         <div class="back">
           <div class="bio">{{description}}</div>
-          <a class="learn-more" href="/jobs/#{{id}}">Learn more <span class="icon icon-arrow-right"></span></a>
+          <a class="learn-more" href="/jobs/#{{id}}">Learn more
+            <span class="icon icon-arrow-right"></span>
+          </a>
         </div>
       </div>
     </div>

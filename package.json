@@ -1,7 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "start": "maw dev"
+    "start": "maw dev",
+    "build": "maw build"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
