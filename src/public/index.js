@@ -1,4 +1,4 @@
-//constants
+//constants test
 const HERO_MAX = 12;
 const HERO_ID = "hero";
 const HERODOT_ID = "heroDot";
