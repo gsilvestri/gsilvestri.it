@@ -256,7 +256,7 @@ module.exports = {
     "previnet.png",
     "ameriprise.png"
   ],
-  jobs: [
+  services: [
     {
       id: "df91b724-8dc7-4f15-9beb-0554261c8379",
       title: "Product Management",
