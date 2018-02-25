@@ -229,74 +229,74 @@ const people = [
 ];
 
 module.exports = {
-  companyName: "Meteor Development Group",
+  companyName: "Giovanni Silvestri",
   people: shuffle(people),
   investors: [
-    "andressen.png",
+    "BDB.gif",
     "combinator.png",
     "heavybit.png",
     "matrix.png",
     "trinity.png"
   ],
   partners1: [
-    "airbnb.png",
-    "facebook.png",
-    "open-table.png",
-    "ticketmaster.png",
-    "heroku.png",
-    "yelp.png",
-    "ikea.png"
+    "BDB.gif",
+    "omnifone.jpg",
+    "unicredit.png",
+    "fastweb.png",
+    "hp.gif",
+    "veolia.png",
+    "nationalLottery.svg"
   ],
   partners2: [
-    "udacity.png",
-    "new-york-times.jpg",
-    "product-hunt.png",
-    "shopify.png",
-    "coursera.png",
-    "qualcomm.png",
-    "mazda.jpg"
+    "MetLife.png",
+    "rhenus.png",
+    "ikea.png",
+    "openBet.png",
+    "niguarda.png",
+    "previnet.png",
+    "ameriprise.png"
   ],
   jobs: [
     {
       id: "df91b724-8dc7-4f15-9beb-0554261c8379",
       title: "Product Management",
       description:
-        "Define and ship new product features while working closely with our engineering team. You'll be working on steering the direction of our commercial products, Optics and Galaxy, and our open source efforts, Apollo and Meteor.",
-      image: "product-management.jpg"
+        "Define and ship new product features while working closely with the engineering team. Working on steering the direction of clients commercial products and open source efforts.",
+      image: "product-management.png"
     },
     {
       id: "9de2d23b-fd3c-421e-92b1-26203c60f1b1",
       title: "Cloud Systems Engineering",
       description:
-        "Help shape the evolution of the modern cloud architecture. You'll contribute to exciting new technologies and solve hard problems in distributed systems, scalability, cross-region coordination, and cloud orchestration.",
+        "Help shape the evolution of the modern cloud architecture. Contribute to exciting new technologies and solve hard problems in distributed systems, scalability, cross-region coordination, and cloud orchestration.",
       image: "cloud-services.jpg"
     },
     {
       id: "e545fc3a-8cd2-4faf-8653-bf83d2e35a8b",
       title: "Design",
       description:
-        "Help product developers build great apps quickly. For us, the produt developer experience is essential, and we strive to build fun and intuitive products that feel right and work well.",
+        "Help product developers build great apps quickly. The produt developer experience is essential, and we strive to build fun and intuitive products that feel right and work well.",
       image: "design.jpg"
     },
     {
       id: "959865c0-73b9-4938-91ec-ed69fabeec24",
-      title: "Frontend Application Engineering",
+      title: "Presentation Layer Engineering",
       description:
-        "Design and build interactive components and data-rich experiences for other developers just like you. Our products are built for developers by developers, and we care deeply about creating high-quality products with well-designed user experiences.",
-      image: "frontend.jpg"
+        "Design and build interactive components and data-rich experiences for other developers. Our products are built for developers by developers, and we care deeply about creating high-quality products with well-designed user experiences.",
+      image: "presentationLayer.png"
     },
     {
       id: "b8ec842e-e79a-455e-a665-b312892d946e",
-      title: "Backend Service Engineering",
+      title: "Business Layer Engineering",
       description:
-        "Build the foundations and APIs of our tools for GraphQL and JavaScript developers. Work closely with the rest of the product development team to help shape and deliver the components that make up our commercial cloud sevices.",
-      image: "backend.jpg"
+        "Build the foundations and APIs of our tools for developers. Work closely with the rest of the product development team to help shape and deliver the components that make up commercial cloud sevices.",
+      image: "businessLayer.gif"
     },
     {
       id: "5e11e6cf-5303-4c12-a3e7-11e5f8da4be1",
       title: "Open Source Engineering",
       description:
-        "Help us build open source GraphQL and JavaScript libraries and tools, share our ideas with the GraphQL community, and collaborate with other companies and projects to move GraphQL forward.",
+        "Build open source libraries and tools, share ideas with the community, and collaborate with other companies and projects to move the project forward.",
       image: "open-source.jpg"
     }
   ]

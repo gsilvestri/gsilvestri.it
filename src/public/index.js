@@ -24,8 +24,8 @@ function plusDivs(i) {
 function currentDiv(i) {
 
     $("#" + HERO_ID.toString() + heroIndex.toString()).fadeOut(1000);
-    $("#" + HERODOT_ID.toString() + heroIndex.toString()).removeClass("w3-white");
+//    $("#" + HERODOT_ID.toString() + heroIndex.toString()).removeClass("w3-white");
     heroIndex = i;
     $("#" + HERO_ID.toString() + heroIndex.toString()).fadeIn(1000);
-    $("#" + HERODOT_ID.toString() + heroIndex.toString()).addClass("w3-white");
+//    $("#" + HERODOT_ID.toString() + heroIndex.toString()).addClass("w3-white");
 }
