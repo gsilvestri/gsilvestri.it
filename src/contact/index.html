@@ -1,79 +1,95 @@
 <html>
 
 <head>
-  <title>Team | Meteor Development Group</title>
+  <title>Contact | Giovanni Silvestri's Home</title>
 
   {{> head}}
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Team | Meteor Development Group">
-  <meta name="twitter:description" content="The open source leader for JavaScript and GraphQL.">
-  <meta name="twitter:image" content="https://www.meteor.io/img/twitter-meta/meteorio-team.png">
+  <meta name="twitter:title" content="About | Giovanni Silvestri's Home">
+  <meta name="twitter:site" content="@BitNowIT">
+  <meta name="twitter:description" content="Software Engineer, human begin, financial developer">
+  <meta name="twitter:image" content="https://www.gsilvestri.it/img/twitter-meta/gsilvestri.png">
 </head>
 
 <body>
-  {{> scripts}} {{> navbar page="team"}}
+  {{> scripts}} {{> navbar page="contact"}}
 
-  <h2 class="pagetitle">Our team</h2>
-
-  <p>
-    We're a small, close-knit group of writers, evangelists, event organizers, designers, product devs, systems experts, and
-    many other things. We accomplish a remarkable amount of work for our size because we're passionate about what we do and
-    we have grand aspirations of making software development as fast, easy, and accessible as possible.
-  </p>
+  <h2 class="pagetitle">Contact me</h2>
 
   <p>
-    We love building tools for developers because we're all nerds at heart. Many of us come from a technical background. Our
-    founders originally met as undergrads at MIT, and created the Meteor platform after inadvertently writing most of it
-    to power their original idea, a travel app for iPads.
+    Use the form below to contact me and make your projects become a reality
   </p>
 
   <p class="quote">
-    Of all our accomplishments at Meteor, what I'm most proud of is the team. It's a privilege and an honor to work with such
-    a talented and caring group of people.
+    All the world's a stage, and all the men and women merely players
   </p>
-  <p class="speaker">- Nick Martin, CTO/Co-Founder</p>
+  <p class="speaker">- William Shakespeare, As You Like It, 1623</p>
 
-  <h4 class="subtitle">Our team</h4>
-
-  <div class="people">
-    {{#each people}}
-    <div class="card">
-      <div class="flipper">
-        <div class="front" style="background-image: url('/img/company/team/{{ picture }}')">
-          <div class="overlay">
-            <div class="name">{{name}}</div>
-            <div class="position">{{#if founder}}
-              <span class="founder">Founder</span>{{/if}}{{title}}</div>
-          </div>
-        </div>
-        <div class="back">
-          {{#if twitter}}
-          <a target="_blank" href="https://twitter.com/{{ twitter }}" class="social twitter">
-            <span class="icon icon-twitter"></span>
-            <span>@{{twitter}}</span>
-          </a>{{/if}} {{#if github}}
-          <a target="_blank" href="https://github.com/{{ github }}" class="social github">
-            <span class="icon icon-github"></span>
-            <span>{{github}}</span>
-          </a>{{/if}}
-          <div class="bio">{{ bio }}</div>
-        </div>
+  <h4 class="subtitle">Contact Form</h4>
+  <form method="POST" action="https://formspree.io/gsit80@gmail.com">
+    <input type="hidden" name="_next" value="http://127.0.0.1:8080/contact" />
+    <div class="row">
+      <div class="col-md-12 text-center" style="padding: 10px;">
+        <input type="email" name="email" required="true" placeholder="Your email">
+      </div>
+      <div class="col-md-12 text-center" style="padding: 10px;">
+        <input type="subject" name="Subject" required="true" placeholder="Subject">
+      </div>
+      <div class="col-md-12 text-center" style="padding: 10px;">
+        <textarea rows="7" cols="80" name="message" required="true" placeholder="Your message"></textarea>
+      </div>
+      <div class="col-md-12 text-center" style="padding: 10px;">
+        <button class="link button" type="submit">Send</button>
       </div>
     </div>
-    {{/each}}
+  </form>
+
+  <h4 class="subtitle">Social</h4>
+  <div class="row social-icons">
+    <div class="col-md-12">
+      <ul>
+        <li>
+          <a target="_blank" class="icon" href="https://www.linkedin.com/in/zackko">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" class="icon icon-github" href="https://github.com/gsilvestri"></a>
+        </li>
+        <li>
+          <a target="_blank" class="icon icon-facebook" href="https://www.facebook.com/giovanni.l.silvestri"></a>
+        </li>
+        <li>
+          <a target="_blank" class="icon icon-twitter" href="https://twitter.com/BitNowIT"></a>
+        </li>
+        <li>
+          <a target="_blank" class="icon" href="https://medium.com/@bitnow">
+            <i class="fab fa-medium-m"></i>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" class="icon" href="https://gsilvestri9.wordpress.com/">
+            <i class="fab fa-wordpress-simple"></i>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" class="icon" href="https://t.me/bitnow">
+            <i class="fab fa-telegram-plane"></i>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" class="icon icon-email" href="mailto:gsit80@gmail.com"></a>
+        </li>
+      </ul>
+    </div>
   </div>
-
-  <div class="team team-photo"></div>
-
-  <h4 class="subtitle">Our investors</h4>
-
-  <div class="partners">
-    {{#each investors}}
-    <div class="partner" style="background-image: url('/img/investors/{{this}}')"></div>
-    {{/each}}
-  </div>
-
+  <p></p>
+  <p></p>
+  <p></p>
+  <div></div>
+  <div></div>
+  <div></div>
   {{> footer}}
 </body>
 
